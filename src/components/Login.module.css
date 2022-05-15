@@ -1,0 +1,9 @@
+.teste button{
+  /* background-color: rgb(200, 195, 195); */
+  background-color: blue;
+  border: none;
+  margin: 5px;
+  border-radius: 10%;
+  padding: 3px;
+  margin-bottom: 10px;
+}

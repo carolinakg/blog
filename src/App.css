@@ -1,0 +1,153 @@
+*{
+  color: #ffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body{
+  background-color: #15202B;
+}
+
+.form{
+  margin: 10px 10%;
+  position: relative;
+  width: 80%;
+}
+
+textarea{
+background-color: transparent;
+border: 2px solid #CCCCCC;
+border-radius: 6px;
+height: 180px;
+width: 100%;
+text-align: justify;
+padding: 10px;
+}
+
+.form button{
+  background-color: #007BFF;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1px 3px;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+.list{
+  width: 80%;
+  margin: 10px 10%;
+}
+
+.tweet{
+  width: 100%;
+  background-color: #343A40;
+  border-radius: 6px;
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 7px
+}
+
+.tweet h5{
+  position: absolute;
+  left:10px ;
+  top: 5px;
+  color: #6C757D ;
+  font-size: 14px;
+}
+
+.tweet span{
+  position: absolute;
+  right:10px ;
+  top: 5px;
+  color: #6C757D ;
+  font-size: 14px;
+}
+
+.tweet p{
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+nav{
+  background-color: #343A40;
+  text-align: start;
+}
+
+nav a{
+  color: #ffff;
+  margin: 10px;
+  line-height: 50px;
+
+}
+
+.save{
+  background-color: #007BFF;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1px 3px;
+  margin-left: 10px ;
+}
+
+.toggleBtn{
+  background-color: #007BFF;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1px 3px;
+}
+.btnLogout{
+  background-color: #007BFF;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1px 3px;
+}
+.only{
+  background-color: rgb(217, 246, 175);
+  height: 100vh;
+}
+
+.likeIcons{
+  width: 15px;
+}
+
+.btnLike{
+  display: flex;
+  align-items: center;
+  background-color: rgb(200, 195, 195);
+  border: none;
+  margin: 5px;
+  border-radius: 10%;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.btnLike p{
+  margin: 0px;
+  padding: 0;
+  color: black;
+}
+
+@keyframes onLike {
+  from{width: 15px;}
+  50%{width: 30px;}
+  to{width: 15px;}
+}
+
+.liked{
+  animation: onLike 1s ease-in ;
+}
+
+.handleEmail{
+  color: black;
+}
